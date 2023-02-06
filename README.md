@@ -3,7 +3,7 @@
 https://rutalexis.github.io/todos-list-react/ 
 
 
-![Demo] (https://media0.giphy.com/media/aHuXKeFb2LP8l8Kyci/giphy.gif?cid=790b7611ec5df2d6f358c4d56f0e532888bfaba985720745&rid=giphy.gif&ct=g)
+![Demo](https://media0.giphy.com/media/aHuXKeFb2LP8l8Kyci/giphy.gif?cid=790b7611ec5df2d6f358c4d56f0e532888bfaba985720745&rid=giphy.gif&ct=g)
 
 # Technologies used in the project:
 
