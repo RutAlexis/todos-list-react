@@ -6,7 +6,7 @@ import Header from "./Header";
 
 
 const tasks = [
-  { id: 1, content: "zakupy", done: false },
+  { id: 1, content: " zrobić zakupy", done: false },
   { id: 2, content: "obiad", done: true },
 ];
 
