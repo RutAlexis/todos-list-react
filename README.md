@@ -2,6 +2,18 @@
 
 Description:
 
+# Technologies used in the project:
+
+HTML, JSX
+
+CSS 
+
+BEM
+
+JavaScript
+
+React.js
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
