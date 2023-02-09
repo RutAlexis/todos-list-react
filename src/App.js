@@ -3,6 +3,7 @@ import Tasks from "./Tasks";
 import Buttons from "./Buttons";
 import Section from "./Section";
 import Header from "./Header";
+import Clock from "./Clock";
 import { useEffect, useState } from "react";
 
 const getInitialTasks = () => {
@@ -62,6 +63,7 @@ function App() {
 
   return (
     <main className="container">
+      <Clock />
       <Header
         title="Lista zadań"
       />
@@ -80,6 +82,7 @@ function App() {
             removeTask={removeTask}
             toggleTaskDone={toggleTaskDone}
           />
+
         }
         extraHeaderContent={
           <Buttons
@@ -89,6 +92,7 @@ function App() {
             setAllDone={setAllDone}
           />
         }
+
       />
     </main>
   );
