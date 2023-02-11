@@ -1,9 +1,10 @@
-import "./style.css";
+import { Subheader } from "./styled";
+
 
 const Header = ({ title }) => (
-  <h1 className="container__header">
+  <Subheader>
     {title}
-  </h1>
+  </Subheader>
 );
 
 export default Header;
