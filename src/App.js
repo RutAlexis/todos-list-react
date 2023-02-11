@@ -6,6 +6,7 @@ import Header from "./Header";
 import Clock from "./Clock";
 import { useEffect, useState } from "react";
 
+
 const getInitialTasks = () => {
   const tasksFromLocalStorage = localStorage.getItem("tasks");
 
