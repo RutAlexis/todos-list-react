@@ -5,7 +5,15 @@ import Section from "./Section";
 import Header from "./Header";
 import Clock from "./Clock";
 import { useEffect, useState } from "react";
+import styled from "styled-components";
 
+
+const Main = styled.main`
+    background-color: rgb(237, 237, 237);
+    max-width: 1000px;
+    padding: 5px;
+    margin: 0 auto;
+`;
 
 const getInitialTasks = () => {
   const tasksFromLocalStorage = localStorage.getItem("tasks");
@@ -63,7 +71,7 @@ function App() {
   };
 
   return (
-    <main className="container">
+    <Main>
       <Clock />
       <Header
         title="Lista zadań"
@@ -95,7 +103,7 @@ function App() {
         }
 
       />
-    </main>
+    </Main>
   );
 }
 
