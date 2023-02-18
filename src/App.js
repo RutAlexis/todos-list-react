@@ -58,7 +58,7 @@ function App() {
       done: true
     })));
   };
-
+ 
   const addNewTask = (content) => {
     setTasks(tasks => [
       ...tasks,
